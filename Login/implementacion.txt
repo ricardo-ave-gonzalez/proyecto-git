@@ -1,0 +1,37 @@
+Alumni documentación informativo curso de Angular
+User: ricardo.ave.gonzalez@gmail.com
+pass: 24102963
+
+RESTful 
+
+SOAP o REST
+
+CORS
+https://spring.io/guides/gs/rest-service-cors/
+https://stackoverflow.com/questions/28982907/problems-with-angular-cors-and-spring
+
+
+Definición de url:
+
+	https://localhost:8080/Login/api/usuarios/all
+
+
+
+Session para loguearse con un token
+Se deberá construir una página de login de usuario que solicite el email y la contraseña. Si el
+usuario es válido, se podrá ingresar a la aplicación.
+	
+	Si el usuario es válido, 
+		guardarlo en sesión y redireccionar a bienvenido
+	Si el usuario no es válido, 
+		informar el error en la página index
+
+Un link "logout" que redirecciona a index y destruye la sesión
+
+
+
+Antes de commitear en github
+	Si commiteamos Java
+		eliminamos target
+	Si commiteamos Angular
+		eliminamos node_modules
